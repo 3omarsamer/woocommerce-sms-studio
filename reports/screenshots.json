@@ -1,0 +1,68 @@
+[
+  {
+    "file": "screenshots/campaign-analytics.png",
+    "sha256": "bbaa1bd54b8106540ec00e319b2305dab9a0f8dde6b4a3c6823246b82984ab4c",
+    "metadata_removed": true,
+    "additional_redaction": false,
+    "chunks": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ]
+  },
+  {
+    "file": "screenshots/sms-misr-integration.png",
+    "sha256": "0a3fdbe17084e8ce996d7df7cb6d060fde649e8d0309b46529d8a78703183508",
+    "metadata_removed": true,
+    "additional_redaction": true,
+    "chunks": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ]
+  },
+  {
+    "file": "screenshots/campaign-management.png",
+    "sha256": "645efcef7cd06e7bca00ec05730079001f7c12b67550d1280d50067c4cfe0c9f",
+    "metadata_removed": true,
+    "additional_redaction": false,
+    "chunks": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ]
+  },
+  {
+    "file": "screenshots/audience-review.png",
+    "sha256": "e578d9a67f75524acca0d9909ffaee700850da9498df066afb929daa6ac2e58d",
+    "metadata_removed": true,
+    "additional_redaction": false,
+    "chunks": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ]
+  },
+  {
+    "file": "screenshots/sms-composer.png",
+    "sha256": "7ac7ebd942a923b84d89d02d28487ec13e629a553be8bca653be0cd85c4b956c",
+    "metadata_removed": true,
+    "additional_redaction": false,
+    "chunks": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ]
+  },
+  {
+    "file": "screenshots/audience-retargeting.png",
+    "sha256": "a21c60b36810a8cccf0c19dd138eb902677c8dc78d7f88b6fdf5a4bdc64d8592",
+    "metadata_removed": true,
+    "additional_redaction": false,
+    "chunks": [
+      "IDAT",
+      "IEND",
+      "IHDR"
+    ]
+  }
+]

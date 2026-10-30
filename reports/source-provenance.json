@@ -1,0 +1,809 @@
+{
+  "baseline": "1.0.0-rc.18",
+  "modifications": [
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "change": "Replaced historical phone examples with explicitly synthetic format-only fixtures; normalization logic unchanged."
+    }
+  ],
+  "files": [
+    {
+      "file": "plugin/assets/journey.js",
+      "baseline_sha256": "113a55ff54179da1ca286bd4a4d2d87551d4adf2c876e1afce0dcc7f43a892a8",
+      "public_sha256": "113a55ff54179da1ca286bd4a4d2d87551d4adf2c876e1afce0dcc7f43a892a8",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/sms-notice.css",
+      "baseline_sha256": "e245b4e8425eac6a453da1953a60f18606963686fcb9f4df7fbdcbdb2e1a8068",
+      "public_sha256": "e245b4e8425eac6a453da1953a60f18606963686fcb9f4df7fbdcbdb2e1a8068",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/sms-notice.js",
+      "baseline_sha256": "172fa250b7d63684a2e40880b6f70cd28c872f9998fcc5639217c939b0c2ee9f",
+      "public_sha256": "172fa250b7d63684a2e40880b6f70cd28c872f9998fcc5639217c939b0c2ee9f",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-audiences.js",
+      "baseline_sha256": "6fce442ba6fc76d26b884a523689521fb2795dc060c170773c79e3bebcad0fee",
+      "public_sha256": "6fce442ba6fc76d26b884a523689521fb2795dc060c170773c79e3bebcad0fee",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-flow.css",
+      "baseline_sha256": "db04ead27b13ff79fab6abe508c41ba387ed00b6902385944362df1efe162a8f",
+      "public_sha256": "db04ead27b13ff79fab6abe508c41ba387ed00b6902385944362df1efe162a8f",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-flow.js",
+      "baseline_sha256": "5e0c3e67d967b3b11ee00723a8ff5da9bfc92f6fce2534e5c72ff47dc402eebd",
+      "public_sha256": "5e0c3e67d967b3b11ee00723a8ff5da9bfc92f6fce2534e5c72ff47dc402eebd",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-forms.js",
+      "baseline_sha256": "88cecf2f5d602914b3d0b7c9554993a2872d94b954c890fbee0853e39a5f57b3",
+      "public_sha256": "88cecf2f5d602914b3d0b7c9554993a2872d94b954c890fbee0853e39a5f57b3",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-m10.js",
+      "baseline_sha256": "f47e16bd289623db11c5a0c0178de98afde0207d581cbf55275089757b0bf72f",
+      "public_sha256": "f47e16bd289623db11c5a0c0178de98afde0207d581cbf55275089757b0bf72f",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-m6.css",
+      "baseline_sha256": "becba0babd2044a37226027d6478ef7c9c71be5fdf8cef6adeeea994e1067abf",
+      "public_sha256": "becba0babd2044a37226027d6478ef7c9c71be5fdf8cef6adeeea994e1067abf",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-m6.js",
+      "baseline_sha256": "a5fc08730a9a251553a2b2615cb97b168215c77d0d20d7a83e4d03ffa35267a9",
+      "public_sha256": "a5fc08730a9a251553a2b2615cb97b168215c77d0d20d7a83e4d03ffa35267a9",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-m7.js",
+      "baseline_sha256": "a8630e3b0aef6f896c1256da59eb2467d83de7b530df891b88182e481e80fc16",
+      "public_sha256": "a8630e3b0aef6f896c1256da59eb2467d83de7b530df891b88182e481e80fc16",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-m9.css",
+      "baseline_sha256": "d4144bf96ee743c13595913f6e4df41d81fa52c105c506eff3f403c56887914e",
+      "public_sha256": "d4144bf96ee743c13595913f6e4df41d81fa52c105c506eff3f403c56887914e",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-m9.js",
+      "baseline_sha256": "7310a701fdac1697911a17d992e9749419c822f7b0a53c2c51a39ad07d0e6460",
+      "public_sha256": "7310a701fdac1697911a17d992e9749419c822f7b0a53c2c51a39ad07d0e6460",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-m91.js",
+      "baseline_sha256": "157e00cdf42576087bcf28e2a4e04cf3eda819c2e93490d1b0666e767de6a068",
+      "public_sha256": "157e00cdf42576087bcf28e2a4e04cf3eda819c2e93490d1b0666e767de6a068",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio-m92.js",
+      "baseline_sha256": "31f5763496bb6149a1560ec33a9cab5c3e83837293db5f3535cd50260b70684e",
+      "public_sha256": "31f5763496bb6149a1560ec33a9cab5c3e83837293db5f3535cd50260b70684e",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio.css",
+      "baseline_sha256": "fae6959842b30f78b294aa2ec7ef13f0feea19efe7f71b8256385ea9d9b272b2",
+      "public_sha256": "fae6959842b30f78b294aa2ec7ef13f0feea19efe7f71b8256385ea9d9b272b2",
+      "identical": true
+    },
+    {
+      "file": "plugin/assets/studio.js",
+      "baseline_sha256": "b73b7c81cdb9972da2844bc4d728a1ccc169991beab484e938d58b09f297b28c",
+      "public_sha256": "b73b7c81cdb9972da2844bc4d728a1ccc169991beab484e938d58b09f297b28c",
+      "identical": true
+    },
+    {
+      "file": "plugin/azula-sms-studio.php",
+      "baseline_sha256": "68fa00375b2e8d8e0658ade1226d196d168e0687bed6e7a57a658e07eac03f4f",
+      "public_sha256": "68fa00375b2e8d8e0658ade1226d196d168e0687bed6e7a57a658e07eac03f4f",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/Admin.php",
+      "baseline_sha256": "cb3d0116ca55ba4919581f61effbb52b225a9f3d4c75e69d5bfca8434b3775c3",
+      "public_sha256": "cb3d0116ca55ba4919581f61effbb52b225a9f3d4c75e69d5bfca8434b3775c3",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/AdminRequestError.php",
+      "baseline_sha256": "7cfb3728fe70174fc39fbe869fbf0e3d923d92d7f1b6e353dc9d290302160606",
+      "public_sha256": "7cfb3728fe70174fc39fbe869fbf0e3d923d92d7f1b6e353dc9d290302160606",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/ApprovalPolicy.php",
+      "baseline_sha256": "4bc216287849774b0fa4a66f7f96f9c600dc84b8c4dfe6f56fc3bc129c6c77a7",
+      "public_sha256": "4bc216287849774b0fa4a66f7f96f9c600dc84b8c4dfe6f56fc3bc129c6c77a7",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/AttributionContractV1.php",
+      "baseline_sha256": "2130f19cee3e000179c50cb5581cd8ccdb372a8d2c14219d688fd9efbadceaff",
+      "public_sha256": "2130f19cee3e000179c50cb5581cd8ccdb372a8d2c14219d688fd9efbadceaff",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/AudienceCsv.php",
+      "baseline_sha256": "e14eaf5204df761cff6d6736d4cf9e42ab799fae8c07aeb88ae51a701a8a5ce4",
+      "public_sha256": "e14eaf5204df761cff6d6736d4cf9e42ab799fae8c07aeb88ae51a701a8a5ce4",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/AudiencePreparationService.php",
+      "baseline_sha256": "e8d5bfb163e7528854cee8a996f0c1794a2e3faee54fbd9875f59752021f3da6",
+      "public_sha256": "e8d5bfb163e7528854cee8a996f0c1794a2e3faee54fbd9875f59752021f3da6",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/AudienceReview.php",
+      "baseline_sha256": "913c8a25d79a9dc0d49620e8f688cbcce8be68fabaef5085629675f2c715bd6f",
+      "public_sha256": "913c8a25d79a9dc0d49620e8f688cbcce8be68fabaef5085629675f2c715bd6f",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/AudienceSource.php",
+      "baseline_sha256": "00f6a7efe79b46b12476ad5131417d57178bb6435f500ced0654ca2db5483292",
+      "public_sha256": "00f6a7efe79b46b12476ad5131417d57178bb6435f500ced0654ca2db5483292",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/AudienceStore.php",
+      "baseline_sha256": "033ab27ed064e6bbc11ddda4f82523030425599901ffb5ce6aa683f6633089fb",
+      "public_sha256": "033ab27ed064e6bbc11ddda4f82523030425599901ffb5ce6aa683f6633089fb",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/AuthorizationBalance.php",
+      "baseline_sha256": "c3df025ca085de9516f46930862e18ca98c6f56ac23e2b2c7490f6a2c1e2989f",
+      "public_sha256": "c3df025ca085de9516f46930862e18ca98c6f56ac23e2b2c7490f6a2c1e2989f",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/BalanceDiagnosticSanitizer.php",
+      "baseline_sha256": "b71212d977fe12464ebc816ba9834a05f26602db8bebea6212b3999974e137d6",
+      "public_sha256": "b71212d977fe12464ebc816ba9834a05f26602db8bebea6212b3999974e137d6",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/BalanceReservations.php",
+      "baseline_sha256": "79a0fd9d3206c821dcd2082c25c62fa33f38d5bed868c3b121c70d041585c44f",
+      "public_sha256": "79a0fd9d3206c821dcd2082c25c62fa33f38d5bed868c3b121c70d041585c44f",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/CairoTime.php",
+      "baseline_sha256": "d8446e6970f6af838148511f2fd5f0b6db2187640409acd7c4813f3ae96f596d",
+      "public_sha256": "d8446e6970f6af838148511f2fd5f0b6db2187640409acd7c4813f3ae96f596d",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/CampaignFlow.php",
+      "baseline_sha256": "fa9a43d5d1e1ce75eae99cfc18aed0957a862b48af8b31e7c891b6a59d269073",
+      "public_sha256": "fa9a43d5d1e1ce75eae99cfc18aed0957a862b48af8b31e7c891b6a59d269073",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/CampaignFlowScreen.php",
+      "baseline_sha256": "232cec34c2edce36af21fe99eed101ff5e1682ffec53ca6934db392f065d70e0",
+      "public_sha256": "232cec34c2edce36af21fe99eed101ff5e1682ffec53ca6934db392f065d70e0",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/CampaignLifecycle.php",
+      "baseline_sha256": "3d36b5e26fa0ea3a4ad7adf82b2a4d112bc504e6f89419ae2ebb242ad3b58df5",
+      "public_sha256": "3d36b5e26fa0ea3a4ad7adf82b2a4d112bc504e6f89419ae2ebb242ad3b58df5",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/ControlledTestException.php",
+      "baseline_sha256": "e3137ec6149345b1db1629aa2be5067c1ca2570dc55149e67a3711618c5a72bd",
+      "public_sha256": "e3137ec6149345b1db1629aa2be5067c1ca2570dc55149e67a3711618c5a72bd",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/ControlledTestService.php",
+      "baseline_sha256": "96f3d31b3a938ba98d5826a80c16224a15cff076a85ab7619cf992e7794900ab",
+      "public_sha256": "96f3d31b3a938ba98d5826a80c16224a15cff076a85ab7619cf992e7794900ab",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/Crypto.php",
+      "baseline_sha256": "a788e019a067cb234aa02a4612fb410bf3ed332361883fa70ea0e7bab1569f23",
+      "public_sha256": "a788e019a067cb234aa02a4612fb410bf3ed332361883fa70ea0e7bab1569f23",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/CustomerSegmentsAdapterV1.php",
+      "baseline_sha256": "d828876b449a3f38d00276fce79741a62fb441aa2f259bb6e357c029b19e99b5",
+      "public_sha256": "d828876b449a3f38d00276fce79741a62fb441aa2f259bb6e357c029b19e99b5",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/Database.php",
+      "baseline_sha256": "92a358e50e50ca8b64de3e253fe155658fa3269282dc891adff862d4ec60bc22",
+      "public_sha256": "92a358e50e50ca8b64de3e253fe155658fa3269282dc891adff862d4ec60bc22",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/DiagnosticsAccess.php",
+      "baseline_sha256": "d39d36ac9ca3fa8cf851a0df1ae6e20c6508e7f862928677b423d65eedeced95",
+      "public_sha256": "d39d36ac9ca3fa8cf851a0df1ae6e20c6508e7f862928677b423d65eedeced95",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/DiagnosticsReader.php",
+      "baseline_sha256": "67158e71947c7dafc6072f435f0c53cad007c24b7a3548e82f5a45077c830e41",
+      "public_sha256": "67158e71947c7dafc6072f435f0c53cad007c24b7a3548e82f5a45077c830e41",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/DiagnosticsScreen.php",
+      "baseline_sha256": "a65f90ae5e28de1ed2c5913c02e92ec15953754b63d17107c4e6545be48fa39b",
+      "public_sha256": "a65f90ae5e28de1ed2c5913c02e92ec15953754b63d17107c4e6545be48fa39b",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/DispatchGate.php",
+      "baseline_sha256": "7efc01a1908a2c0e032fbcd4c3cad519bee22d0a1b2d5bb3cde3765e0a5005fd",
+      "public_sha256": "7efc01a1908a2c0e032fbcd4c3cad519bee22d0a1b2d5bb3cde3765e0a5005fd",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/EgyptMobileNormalizer.php",
+      "baseline_sha256": "7b2ac2f2b388c20e00ee7181ff7cc87a2c76a26fa0558625b869e9feade2bde8",
+      "public_sha256": "7b2ac2f2b388c20e00ee7181ff7cc87a2c76a26fa0558625b869e9feade2bde8",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/ExactPoints.php",
+      "baseline_sha256": "93da9f75307a18510176bb78f91ac9d66db67c90351d64e2085557a576bf4963",
+      "public_sha256": "93da9f75307a18510176bb78f91ac9d66db67c90351d64e2085557a576bf4963",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/FrozenIdentitySource.php",
+      "baseline_sha256": "c08b4e71262cf74ac66ebfa1d29c2796cfcee53a3f6d5702903b71fc1fb1e9f5",
+      "public_sha256": "c08b4e71262cf74ac66ebfa1d29c2796cfcee53a3f6d5702903b71fc1fb1e9f5",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/HeldQueueProviderBridge.php",
+      "baseline_sha256": "7831a3e630467678da39127f1af2003c0d64c623e07b5890ad7a4143c895cf07",
+      "public_sha256": "7831a3e630467678da39127f1af2003c0d64c623e07b5890ad7a4143c895cf07",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M10.php",
+      "baseline_sha256": "a096dd8f5fc447611871eb45b2bede5dbb8031cb8af8399be84085971b7a7a79",
+      "public_sha256": "a096dd8f5fc447611871eb45b2bede5dbb8031cb8af8399be84085971b7a7a79",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M11Environment.php",
+      "baseline_sha256": "5a5431ef8215dbfc207b4394c78e1d74f3dc18067809bf627f01a6054726b954",
+      "public_sha256": "5a5431ef8215dbfc207b4394c78e1d74f3dc18067809bf627f01a6054726b954",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M11Purchases.php",
+      "baseline_sha256": "0e3e394804be22116262de1566e4294cd36cbf524b6e2c0a4bcc1bebc274f1ba",
+      "public_sha256": "0e3e394804be22116262de1566e4294cd36cbf524b6e2c0a4bcc1bebc274f1ba",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M2Api.php",
+      "baseline_sha256": "85f7e9de50d62a34e5566fb1de27fa873bba2d4ef61ec837fe9682b9a1cc4f18",
+      "public_sha256": "85f7e9de50d62a34e5566fb1de27fa873bba2d4ef61ec837fe9682b9a1cc4f18",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M2Repository.php",
+      "baseline_sha256": "c0fcd59517ffb3c4be7f8aac5a58bf4f51d3811cfe79954738ba108832c644e9",
+      "public_sha256": "c0fcd59517ffb3c4be7f8aac5a58bf4f51d3811cfe79954738ba108832c644e9",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M2Scheduler.php",
+      "baseline_sha256": "14960d071f5e9dbd14ba06d5cc418805497b84e5dd2171018824b36e7b710d0b",
+      "public_sha256": "14960d071f5e9dbd14ba06d5cc418805497b84e5dd2171018824b36e7b710d0b",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M2Screen.php",
+      "baseline_sha256": "3c929d4e4a30656edc84ed04df1844492915485b5da0a9b011edf9f73459481b",
+      "public_sha256": "3c929d4e4a30656edc84ed04df1844492915485b5da0a9b011edf9f73459481b",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M3Repository.php",
+      "baseline_sha256": "419f75c02cf6c95d432c530102ecfe2d5e77ab5a9b66512663a7f7b53e1f8662",
+      "public_sha256": "419f75c02cf6c95d432c530102ecfe2d5e77ab5a9b66512663a7f7b53e1f8662",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M3Scheduler.php",
+      "baseline_sha256": "6141256d08201052dae451326165e812e419a7d2a2c7c9e9b5d591130729ee29",
+      "public_sha256": "6141256d08201052dae451326165e812e419a7d2a2c7c9e9b5d591130729ee29",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M5Activity.php",
+      "baseline_sha256": "4b348a4f3194425d5effd3a9ec17dd064db7ed958292a009d2095f231306543e",
+      "public_sha256": "4b348a4f3194425d5effd3a9ec17dd064db7ed958292a009d2095f231306543e",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M5Api.php",
+      "baseline_sha256": "e64a63a9da994e07102007ad10e18bf6d02c58630ce15bdd412cf5ab5d81bc8c",
+      "public_sha256": "e64a63a9da994e07102007ad10e18bf6d02c58630ce15bdd412cf5ab5d81bc8c",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Activity.php",
+      "baseline_sha256": "3636153593fd20256744b16b97bca3af6ea98f95705ec8eb006be1c55c65f9b3",
+      "public_sha256": "3636153593fd20256744b16b97bca3af6ea98f95705ec8eb006be1c55c65f9b3",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Analytics.php",
+      "baseline_sha256": "0b351d361a7ac42db41c1054daf4c0580f25825f808a860d4bca1920732bbf5f",
+      "public_sha256": "0b351d361a7ac42db41c1054daf4c0580f25825f808a860d4bca1920732bbf5f",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6AnalyticsCsv.php",
+      "baseline_sha256": "eea7c31c62d74ebae5f80be0b4f9fa86b3ae2fdc00aff733fb8e691eb266c98b",
+      "public_sha256": "eea7c31c62d74ebae5f80be0b4f9fa86b3ae2fdc00aff733fb8e691eb266c98b",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Api.php",
+      "baseline_sha256": "00615aba1da5ddba11eda8143518a922b3569d74a5994d85dc340882e76e1f07",
+      "public_sha256": "00615aba1da5ddba11eda8143518a922b3569d74a5994d85dc340882e76e1f07",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6AttributionContracts.php",
+      "baseline_sha256": "73ee120619e4d52d60721118cbbe513833ecf36b6820ac4e41d87cec5da4d526",
+      "public_sha256": "73ee120619e4d52d60721118cbbe513833ecf36b6820ac4e41d87cec5da4d526",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Audience.php",
+      "baseline_sha256": "098b4eb28d9dec8fc1aa49cd507d949c217e9c38153842f797f460c387811720",
+      "public_sha256": "098b4eb28d9dec8fc1aa49cd507d949c217e9c38153842f797f460c387811720",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Campaigns.php",
+      "baseline_sha256": "c69584bba603acf95add980357e223a646f3c594cb9c1b687e2e791b5f2e7d69",
+      "public_sha256": "c69584bba603acf95add980357e223a646f3c594cb9c1b687e2e791b5f2e7d69",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Front.php",
+      "baseline_sha256": "8337619b45d8737a9dffac17d82ed081dd838cc164f4fdf62a4235f8ee9a0837",
+      "public_sha256": "8337619b45d8737a9dffac17d82ed081dd838cc164f4fdf62a4235f8ee9a0837",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Links.php",
+      "baseline_sha256": "81a830852377e67aada478ccd4fd17577743b8d2a27b3600daa9e7015721aee5",
+      "public_sha256": "81a830852377e67aada478ccd4fd17577743b8d2a27b3600daa9e7015721aee5",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Revenue.php",
+      "baseline_sha256": "de049c7b99f6a2db5a7c9f00fd97e4d302356f932d8e117e861ecb35c5dba9b0",
+      "public_sha256": "de049c7b99f6a2db5a7c9f00fd97e4d302356f932d8e117e861ecb35c5dba9b0",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Schema.php",
+      "baseline_sha256": "983a16610dd8d53d9975fb81af5917518e790d444ad1ad80704a6c84d314a850",
+      "public_sha256": "983a16610dd8d53d9975fb81af5917518e790d444ad1ad80704a6c84d314a850",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Screen.php",
+      "baseline_sha256": "9f85b40a629f67b342a084e50336aca97fc674b52d4b9672f5a81596b61b5c33",
+      "public_sha256": "9f85b40a629f67b342a084e50336aca97fc674b52d4b9672f5a81596b61b5c33",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6SendPolicy.php",
+      "baseline_sha256": "869df3632d1dd50f7037a033196799020d99f6840371ff79b6870bb21b7038b4",
+      "public_sha256": "869df3632d1dd50f7037a033196799020d99f6840371ff79b6870bb21b7038b4",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6SendService.php",
+      "baseline_sha256": "311677227c634a72572fe277e08781332aa5a51184961ab92396e601b9bd5977",
+      "public_sha256": "311677227c634a72572fe277e08781332aa5a51184961ab92396e601b9bd5977",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Store.php",
+      "baseline_sha256": "697459421ab6412d6de9738bf5058627e302b53f8cd8d91b25b1634d4a35e703",
+      "public_sha256": "697459421ab6412d6de9738bf5058627e302b53f8cd8d91b25b1634d4a35e703",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Timing.php",
+      "baseline_sha256": "ec052c7364fbac37769aa59ead54ecda414e95abe56fcab666f4ab26df2db980",
+      "public_sha256": "ec052c7364fbac37769aa59ead54ecda414e95abe56fcab666f4ab26df2db980",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Tracking.php",
+      "baseline_sha256": "d5c6f745d94b775b176e62eb53e1d93ae5b64d81436b3ffaf1e2fc65457723d3",
+      "public_sha256": "d5c6f745d94b775b176e62eb53e1d93ae5b64d81436b3ffaf1e2fc65457723d3",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M6Worker.php",
+      "baseline_sha256": "26fc06dc0b3377e4782531c3313c4560414bd69b2f39a248fd66acbe50d62b0d",
+      "public_sha256": "26fc06dc0b3377e4782531c3313c4560414bd69b2f39a248fd66acbe50d62b0d",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M7Collector.php",
+      "baseline_sha256": "029111d5d38c33bc1c2257bfd0143b5d7ff37f08824792c9bb5e5c15c7690f6a",
+      "public_sha256": "029111d5d38c33bc1c2257bfd0143b5d7ff37f08824792c9bb5e5c15c7690f6a",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M7Front.php",
+      "baseline_sha256": "409105239065d8282362260ab6f9398d89d09a2ea82dfe70553a0a4dc5ef123a",
+      "public_sha256": "409105239065d8282362260ab6f9398d89d09a2ea82dfe70553a0a4dc5ef123a",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M7Links.php",
+      "baseline_sha256": "cb318b74f1639f0f31ad91dc5827a0a5e2c94a16edfefa62b15c2c1142b11f81",
+      "public_sha256": "cb318b74f1639f0f31ad91dc5827a0a5e2c94a16edfefa62b15c2c1142b11f81",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M7Schema.php",
+      "baseline_sha256": "905ae3dcac5fc5320ce8e91c14365696f06eefe69fc9babe246008bbcb01d26b",
+      "public_sha256": "905ae3dcac5fc5320ce8e91c14365696f06eefe69fc9babe246008bbcb01d26b",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M7Settings.php",
+      "baseline_sha256": "abe234d936159f881cfb213fa3c9397898cdd321e394a651fb3011a08535e2ac",
+      "public_sha256": "abe234d936159f881cfb213fa3c9397898cdd321e394a651fb3011a08535e2ac",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M8Analytics.php",
+      "baseline_sha256": "12656507bbe34b4ebdafa205d00d8e525a9c7bc0e909c5ecf0a57dd21f8c1187",
+      "public_sha256": "12656507bbe34b4ebdafa205d00d8e525a9c7bc0e909c5ecf0a57dd21f8c1187",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M8AnalyticsCsv.php",
+      "baseline_sha256": "0711f0be2c57ffecd69e66aaad3e24a2372941273b0166fffd553d543ef3ad15",
+      "public_sha256": "0711f0be2c57ffecd69e66aaad3e24a2372941273b0166fffd553d543ef3ad15",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M8Costs.php",
+      "baseline_sha256": "0a8efe829d7571d1c2578cdcff0249c0e85f58b26de9bf0b399b47120526eb91",
+      "public_sha256": "0a8efe829d7571d1c2578cdcff0249c0e85f58b26de9bf0b399b47120526eb91",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M8Events.php",
+      "baseline_sha256": "36eb0a8cecb8a57cf3f6d9af0399d7ff3dea31c4343e8eeb02c7f13540d12081",
+      "public_sha256": "36eb0a8cecb8a57cf3f6d9af0399d7ff3dea31c4343e8eeb02c7f13540d12081",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M8Tokens.php",
+      "baseline_sha256": "dc22f2050e0cda478ed30306adde500b9e5d075adc078e12838c69860fa5c56c",
+      "public_sha256": "dc22f2050e0cda478ed30306adde500b9e5d075adc078e12838c69860fa5c56c",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M8Values.php",
+      "baseline_sha256": "ae4f4c87a171e21eb04c7df02cb6a0ff294d8541aa45989f3976037c07208a0a",
+      "public_sha256": "ae4f4c87a171e21eb04c7df02cb6a0ff294d8541aa45989f3976037c07208a0a",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M91Campaign.php",
+      "baseline_sha256": "bcc864e370f25a3493d58ea67484675aebd2b6b6b8fbc6edc8ccc0c867253d91",
+      "public_sha256": "bcc864e370f25a3493d58ea67484675aebd2b6b6b8fbc6edc8ccc0c867253d91",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M91Screen.php",
+      "baseline_sha256": "bdf991d0da5546ff5171f0397db8d8fe20fbe18a84fd5f79e5656b08d0e02961",
+      "public_sha256": "bdf991d0da5546ff5171f0397db8d8fe20fbe18a84fd5f79e5656b08d0e02961",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M92Policy.php",
+      "baseline_sha256": "2045b43c1b50a2ea519aee75d9b20256264e678730c9800723e269093759306f",
+      "public_sha256": "2045b43c1b50a2ea519aee75d9b20256264e678730c9800723e269093759306f",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M92Readiness.php",
+      "baseline_sha256": "fe14b8d4ca62c9ae5e35cc8c0471ca49be450009c3a00db98f5ef4e2aed1a516",
+      "public_sha256": "fe14b8d4ca62c9ae5e35cc8c0471ca49be450009c3a00db98f5ef4e2aed1a516",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M92Runner.php",
+      "baseline_sha256": "2cbb53673388670460e246b4fc9e93883951fce1fb5caac023c9c9b57880237d",
+      "public_sha256": "2cbb53673388670460e246b4fc9e93883951fce1fb5caac023c9c9b57880237d",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M92Screen.php",
+      "baseline_sha256": "832d73b91aa10c7422cd693dd73406b984d551b126ff47ec3b8e3a9a0d6b6364",
+      "public_sha256": "832d73b91aa10c7422cd693dd73406b984d551b126ff47ec3b8e3a9a0d6b6364",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M9Api.php",
+      "baseline_sha256": "adcc12c76eb936acd87807b3f70d02350ea1197f320611828c4da0d1ffe05801",
+      "public_sha256": "adcc12c76eb936acd87807b3f70d02350ea1197f320611828c4da0d1ffe05801",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M9Bulk.php",
+      "baseline_sha256": "1acadc9969c158d256ea18006123e10c3d1b742764ee9e8502fe02757011fecb",
+      "public_sha256": "1acadc9969c158d256ea18006123e10c3d1b742764ee9e8502fe02757011fecb",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M9Checkout.php",
+      "baseline_sha256": "b030ac500a04f0e3d108a2dc43f02aff3ca566b40ebfd8b1d9a19af9b078736c",
+      "public_sha256": "b030ac500a04f0e3d108a2dc43f02aff3ca566b40ebfd8b1d9a19af9b078736c",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M9Policy.php",
+      "baseline_sha256": "561dcc11948db11cf0c18a60a1bfa3c050662b6363b7edd87a96691abba5eec8",
+      "public_sha256": "561dcc11948db11cf0c18a60a1bfa3c050662b6363b7edd87a96691abba5eec8",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M9Retargeting.php",
+      "baseline_sha256": "0fc7b2ffe5cae8e1ffe99d7c2f0f49a04552a2dbf88617f76bcd5c097ecce2dc",
+      "public_sha256": "0fc7b2ffe5cae8e1ffe99d7c2f0f49a04552a2dbf88617f76bcd5c097ecce2dc",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M9Schema.php",
+      "baseline_sha256": "7cf3b4ee039870d9170c86991020fe5b22dbe1425988cbef5a25ff07f9902855",
+      "public_sha256": "7cf3b4ee039870d9170c86991020fe5b22dbe1425988cbef5a25ff07f9902855",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M9Screen.php",
+      "baseline_sha256": "03566abc3d0c98dc03f58fa91a7846af2ea53ba09da6d459bd51f3bc8e380e04",
+      "public_sha256": "03566abc3d0c98dc03f58fa91a7846af2ea53ba09da6d459bd51f3bc8e380e04",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M9Source.php",
+      "baseline_sha256": "5b780d9dcf98f280128958d2750dd1313eca837b0697b9e300145f310c215ac8",
+      "public_sha256": "5b780d9dcf98f280128958d2750dd1313eca837b0697b9e300145f310c215ac8",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/M9Worker.php",
+      "baseline_sha256": "56233ac95cccc650341ac2b2a46ddae08e8e9ac9136151ea93851e435f4deb30",
+      "public_sha256": "56233ac95cccc650341ac2b2a46ddae08e8e9ac9136151ea93851e435f4deb30",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/MessageMetrics.php",
+      "baseline_sha256": "414e6a543af08ffe30c3d84de0cd7595bb282933bfeda5eaffc47ba9c0f44d15",
+      "public_sha256": "414e6a543af08ffe30c3d84de0cd7595bb282933bfeda5eaffc47ba9c0f44d15",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/MessageValidation.php",
+      "baseline_sha256": "30d884af37aa7e42eaf02e5db55eb256f98c24d51feda3d110ce67c2c919ee8f",
+      "public_sha256": "30d884af37aa7e42eaf02e5db55eb256f98c24d51feda3d110ce67c2c919ee8f",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/OriginalPhoneDiagnostics.php",
+      "baseline_sha256": "b7454f317cf1bd4555d1e4ec3ab62d7dd4a99628f45bbdb17a9da51496371e18",
+      "public_sha256": "b7454f317cf1bd4555d1e4ec3ab62d7dd4a99628f45bbdb17a9da51496371e18",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "baseline_sha256": "21b8648b92921c688e18358d3f5b2d50a55edfa80a30d87b25b4da931ad6b7e7",
+      "public_sha256": "6344e8e2c1bff859130dafcaa0648dc13b08c890173de296bed3c8258e96b9ff",
+      "identical": false
+    },
+    {
+      "file": "plugin/src/Plugin.php",
+      "baseline_sha256": "9ddd8f560ba96d3c2625ba8dbc3d3d596ad2d75f72b3154cd0112cbc9a700ee4",
+      "public_sha256": "9ddd8f560ba96d3c2625ba8dbc3d3d596ad2d75f72b3154cd0112cbc9a700ee4",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/RC18Retargeting.php",
+      "baseline_sha256": "43dd25b982390ee4c1dc30de1d7bc925a5d1b69133e27a57be965c1bc0b7c1cd",
+      "public_sha256": "43dd25b982390ee4c1dc30de1d7bc925a5d1b69133e27a57be965c1bc0b7c1cd",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/RC1Journey.php",
+      "baseline_sha256": "097905091a62a7b56a059ed36d5807f0e390d5fa8b294a35f175109270f19663",
+      "public_sha256": "097905091a62a7b56a059ed36d5807f0e390d5fa8b294a35f175109270f19663",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/RC1LinkGuard.php",
+      "baseline_sha256": "2e3fd2a4afc5c123df25bd937d6fa785707f90058beee013be5c2a8c6f2ff64b",
+      "public_sha256": "2e3fd2a4afc5c123df25bd937d6fa785707f90058beee013be5c2a8c6f2ff64b",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/RC1Status.php",
+      "baseline_sha256": "becde5e9ec3b4027a50343712739f2c8681ed8f5abad803d1ad6abc91d5e1df0",
+      "public_sha256": "becde5e9ec3b4027a50343712739f2c8681ed8f5abad803d1ad6abc91d5e1df0",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/RC1Values.php",
+      "baseline_sha256": "8d0416acc17e740865517e0c2ff36b7f3a068f99c9008c09a989ba69a7629afd",
+      "public_sha256": "8d0416acc17e740865517e0c2ff36b7f3a068f99c9008c09a989ba69a7629afd",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/RC2Audiences.php",
+      "baseline_sha256": "423b22e1e361ac19b5e19d86b9ecb768c2fec728226e6a7946265cdeba5c0307",
+      "public_sha256": "423b22e1e361ac19b5e19d86b9ecb768c2fec728226e6a7946265cdeba5c0307",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/RC2Evidence.php",
+      "baseline_sha256": "7ef0b14a375faea5ff343cb6b3afd66ec9c57a5244aa601319c48e38fb5c6cf6",
+      "public_sha256": "7ef0b14a375faea5ff343cb6b3afd66ec9c57a5244aa601319c48e38fb5c6cf6",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/RC2Screen.php",
+      "baseline_sha256": "28d6ae95fe2f74af12e0ccc463d31269ad9506d81cf905c10ad4a69bbb2dfd7f",
+      "public_sha256": "28d6ae95fe2f74af12e0ccc463d31269ad9506d81cf905c10ad4a69bbb2dfd7f",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/ScheduledCampaign.php",
+      "baseline_sha256": "44e9153d12d8e275a0cb771262dddd02445eb8b4e6ce4ecd13f77e6643172573",
+      "public_sha256": "44e9153d12d8e275a0cb771262dddd02445eb8b4e6ce4ecd13f77e6643172573",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/Schema.php",
+      "baseline_sha256": "ebd43a41a2a5f4ce58787a682d1fb6b5d586a78addeaf4f6c774b950c78b7d1c",
+      "public_sha256": "ebd43a41a2a5f4ce58787a682d1fb6b5d586a78addeaf4f6c774b950c78b7d1c",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/Security.php",
+      "baseline_sha256": "ba43fcf87b5319d02f0ae320dab5a05b4c45e1eb96909f57b870a957d1cf2c18",
+      "public_sha256": "ba43fcf87b5319d02f0ae320dab5a05b4c45e1eb96909f57b870a957d1cf2c18",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/SenderIdentity.php",
+      "baseline_sha256": "58f6fb949a16022ef8727ba2d30ba96d6f739f842f4cc42a5de4c13cbc837577",
+      "public_sha256": "58f6fb949a16022ef8727ba2d30ba96d6f739f842f4cc42a5de4c13cbc837577",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/SmsConsent.php",
+      "baseline_sha256": "e712db656cc7ba5334c3107100bdd05f1fac2d56c4351088498f87545302fdaa",
+      "public_sha256": "e712db656cc7ba5334c3107100bdd05f1fac2d56c4351088498f87545302fdaa",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/SmsJourneyState.php",
+      "baseline_sha256": "f52046f8eca9080a3bcb7b317a982e34c239fe3a7f8f147269356d5a2095d9a6",
+      "public_sha256": "f52046f8eca9080a3bcb7b317a982e34c239fe3a7f8f147269356d5a2095d9a6",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/SmsMisrAdapter.php",
+      "baseline_sha256": "25e8b0321225e65ec2caf3b9e369cdfe8fb21afa9768b8b15b33329bcb5e571c",
+      "public_sha256": "25e8b0321225e65ec2caf3b9e369cdfe8fb21afa9768b8b15b33329bcb5e571c",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/SmsMisrHttp.php",
+      "baseline_sha256": "479b27c4a509e80b7a62b38516b0431998d77b40eb837948e902b94bf88f3c2f",
+      "public_sha256": "479b27c4a509e80b7a62b38516b0431998d77b40eb837948e902b94bf88f3c2f",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/SmsMisrOfflineTransport.php",
+      "baseline_sha256": "20254eba03270a29ce1edb5e2b48c64a7afaa369ccd5c04acd58ed18f6432afe",
+      "public_sha256": "20254eba03270a29ce1edb5e2b48c64a7afaa369ccd5c04acd58ed18f6432afe",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/SmsMisrSettings.php",
+      "baseline_sha256": "fdef820bf96f70ef6113746734c879e536f814075ba3246b1722ec7c40f20a25",
+      "public_sha256": "fdef820bf96f70ef6113746734c879e536f814075ba3246b1722ec7c40f20a25",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/SmsNotice.php",
+      "baseline_sha256": "c2df5bdaf0137ecca4edc6faad45560cf3e3454d1660ae1e26c5a4c3f033f980",
+      "public_sha256": "c2df5bdaf0137ecca4edc6faad45560cf3e3454d1660ae1e26c5a4c3f033f980",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/SourceCompatibility.php",
+      "baseline_sha256": "603b3c554a3114070f65be841fffa1be406738591f92fc427f22bc19272d5528",
+      "public_sha256": "603b3c554a3114070f65be841fffa1be406738591f92fc427f22bc19272d5528",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/TargetedDiagnostics.php",
+      "baseline_sha256": "b7967f446bfaee11bc325294f4960a97017a7ec2f669a1089f9b3b06fcea59d0",
+      "public_sha256": "b7967f446bfaee11bc325294f4960a97017a7ec2f669a1089f9b3b06fcea59d0",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/WordPressStore.php",
+      "baseline_sha256": "2ca9d5ff7b591c5396328636575067d0ae09e739a36f32e00e2757882433ff6c",
+      "public_sha256": "2ca9d5ff7b591c5396328636575067d0ae09e739a36f32e00e2757882433ff6c",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/m6-attribution-pins.php",
+      "baseline_sha256": "9aae93491cf0a73bb75c51ab98320047a0fc72d5664961e66fc7faa242660737",
+      "public_sha256": "9aae93491cf0a73bb75c51ab98320047a0fc72d5664961e66fc7faa242660737",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/source-pins-0169.php",
+      "baseline_sha256": "c929b40e30abe418255d4c2db0e22c540b8899ced8bdaaf1f86ac9a92bb51557",
+      "public_sha256": "c929b40e30abe418255d4c2db0e22c540b8899ced8bdaaf1f86ac9a92bb51557",
+      "identical": true
+    },
+    {
+      "file": "plugin/src/source-pins.php",
+      "baseline_sha256": "7da0ef5d581bf8ba18cf19d97d64e4a0a85ee25b198fba18b92cc4bf700a46db",
+      "public_sha256": "7da0ef5d581bf8ba18cf19d97d64e4a0a85ee25b198fba18b92cc4bf700a46db",
+      "identical": true
+    },
+    {
+      "file": "plugin/uninstall.php",
+      "baseline_sha256": "a6bf1db3c53e1ea44804f469da74ad75f71631f27fe099ee70f8913613a27f6d",
+      "public_sha256": "a6bf1db3c53e1ea44804f469da74ad75f71631f27fe099ee70f8913613a27f6d",
+      "identical": true
+    }
+  ]
+}

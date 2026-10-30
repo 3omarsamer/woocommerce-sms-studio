@@ -4,6 +4,6 @@ This GitHub repository describes Azula SMS Studio RC18. The separate prepared ZI
 
 The plugin has guarded LIVE operations: explicit approvals, recipient ceilings, production tracking verification and independent Scheduled Live permission. Sending can incur real charges. Test with synthetic fixtures and mock provider responses.
 
-The current GitHub repository initially contains documentation; source and redacted screenshots must pass a separate transfer and verification check before claiming that they are hosted here.
+The repository includes the reviewed RC18 source export and six redacted portfolio images. See reports/SECURITY-SANITIZATION.md for scope and limitations. Publication does not authorize production activation or sending.
 
 **License:** No standalone license grant has been approved in this repository. Ownership and applicable WordPress/GPL obligations require separate review.

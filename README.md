@@ -4,7 +4,7 @@
 
 Built for **Azula Sportswear**, an Egypt-focused e-commerce store, this custom WordPress platform connects customer segmentation, SMS campaign operations, branded tracking links, behavioral analytics, WooCommerce purchases and controlled background execution.
 
-> **Project status:** RC18 portfolio case study. The sanitized source ZIP has been prepared separately; source import and screenshot upload are still pending in this GitHub repository. Documentation does not imply that every production verification has passed.
+> **Project status:** RC18 portfolio case study. The reviewed RC18 implementation, six redacted portfolio images, synthetic smoke tests, examples and publication reports are included in this repository. Documentation does not imply that every production verification has passed.
 
 ## Why we built it
 
@@ -45,7 +45,7 @@ SMS Studio builds its own snapshot/dynamic audiences. It supports positive click
 
 ### Background scheduling on Hostinger
 
-WordPress **Action Scheduler** coordinates approved send jobs. A **Hostinger server-side cron job approximately every five minutes** helps wake processing regardless of whether the administrator is logged in or the laptop is switched on. Africa/Cairo schedule selections are stored in UTC. Worker checks, locks and durable attempt claims help limit duplicate sends. A background runner is independent of the local browser, but execution still depends on hosting and runner health.
+WordPress **Action Scheduler** coordinates approved send jobs. A **Hostinger server-side cron trigger, with an approximately five-minute target cadence,** can wake processing regardless of whether the administrator is logged in or the laptop is switched on. The available source/evidence does not independently establish the current dedicated LIVE trigger interval; see [background scheduling](docs/BACKGROUND-SCHEDULING.md). Africa/Cairo schedule selections are stored in UTC. Worker checks, locks and durable attempt claims help limit duplicate sends. A background runner is independent of the local browser, but execution still depends on hosting and runner health.
 
 ## Architecture
 
@@ -78,7 +78,26 @@ RC18's local review reported **445 PHP/SQL checks and 63 browser cases**. The pu
 
 ## Screenshots and source publication
 
-Six redacted admin screenshots are prepared for the portfolio: analytics, SMS Misr integration, campaign management, audience preparation, composer and retargeting. They and the sanitized RC18 source package will be added to this repository once transfer and verification are complete. **Do not interpret an absent source directory as the implementation being published here already.**
+The real implementation is in [`plugin/`](plugin/). The six redacted UI screenshots below are portfolio illustrations, not independent proof of delivery, production readiness or current account state. See [screenshot provenance and redaction notes](screenshots/README.md).
+
+| View | Screenshot |
+|---|---|
+| Campaign Analytics | ![Campaign analytics](screenshots/campaign-analytics.png) |
+| SMS Misr Integration | ![SMS Misr connection](screenshots/sms-misr-integration.png) |
+| Campaign Management | ![Campaign management](screenshots/campaign-management.png) |
+| Audience Review | ![Audience review](screenshots/audience-review.png) |
+| SMS Composer | ![SMS composer](screenshots/sms-composer.png) |
+| Audience Retargeting | ![Audience retargeting](screenshots/audience-retargeting.png) |
+
+## Source and documentation
+
+- [`plugin/src/`](plugin/src/) and [`plugin/assets/`](plugin/assets/): RC18 PHP, JavaScript and CSS.
+- [Architecture](docs/ARCHITECTURE.md), [tracking and retargeting](docs/TRACKING-AND-RETARGETING.md), [normalization](docs/PHONE-NORMALIZATION.md).
+- [Development journey](docs/DEVELOPMENT-JOURNEY.md), [background scheduling](docs/BACKGROUND-SCHEDULING.md), [planned V2](docs/V2-ROADMAP.md).
+- [Security boundaries](docs/SECURITY.md), [validation scope](docs/VALIDATION.md), [sanitization report](reports/SECURITY-SANITIZATION.md).
+- [`tests/public-smoke.php`](tests/public-smoke.php) and [`examples/`](examples/): offline synthetic checks and non-operational configuration guidance.
+
+Run `php tests/public-smoke.php` with PHP 8.1+ and Sodium. No credentials, WordPress installation, database or provider connection is required for that smoke test. This is an application-specific source reference, not a one-click general-purpose plugin. Private integration dependencies are not bundled; do not weaken its hostname, source or approval guards to run a demo.
 
 ## V2 — Automated Customer Lifecycle Marketing
 

@@ -1,0 +1,8 @@
+<?php
+// Documentation only. Not a wp-config.php and not loaded by the plugin.
+// Store a unique deployment key outside source control. Never reuse a staging key.
+// Define AZULA_SMS_STUDIO_DATA_KEY securely at deployment with a valid base64
+// encoded 32-byte value; no example key is intentionally supplied here.
+// AZULA_SMS_STUDIO_PRODUCTION_ENABLED and
+// AZULA_SMS_STUDIO_PRODUCTION_TRACKING_VERIFIED remain undefined by default.
+// A source checkout is not production authorization. Keep sending permissions OFF.

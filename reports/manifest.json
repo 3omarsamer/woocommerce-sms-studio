@@ -1,0 +1,805 @@
+{
+  "scope": "Every publication file except manifest self-reference; no private development Git history",
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 316,
+      "sha256": "fdc5a591491c6bd21e6a8a6e52a94dcefa14e73106516de9094e65fe22b1a933"
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "bytes": 5166,
+      "sha256": "7d90bd063099881b2e4a4fc6fe6627a3d53a2163e8c3aa8c409cc87e2a4c61c3"
+    },
+    {
+      "file": "docs/BACKGROUND-SCHEDULING.md",
+      "bytes": 2946,
+      "sha256": "83c078f7a850a42aae28482ef37fbe45d59f9d0010421263b177b285df88cec8"
+    },
+    {
+      "file": "docs/DEVELOPMENT-JOURNEY.md",
+      "bytes": 6942,
+      "sha256": "270defe990393dd2ec09de59bd208ea6ec72dded9341d38e20e2fa9503cbbd54"
+    },
+    {
+      "file": "docs/PHONE-NORMALIZATION.md",
+      "bytes": 2942,
+      "sha256": "d127948c786ad5c29c5b3915da932bd3e74752f35a808b0aff288c52569066e3"
+    },
+    {
+      "file": "docs/SECURITY.md",
+      "bytes": 2792,
+      "sha256": "4226a802fc2b8636d28c2f62c070ed49bcd4bad8266b25e12cb7b273798e2ef7"
+    },
+    {
+      "file": "docs/TRACKING-AND-RETARGETING.md",
+      "bytes": 8087,
+      "sha256": "5f1a4b98b161bcdfcd7702246129f3cc188490d16568b972c19e6e33b3be1ce8"
+    },
+    {
+      "file": "docs/V2-ROADMAP.md",
+      "bytes": 1059,
+      "sha256": "e265fb62eba0efd63a0fca8cac9df2c9506b873182489407efca0a9ecafc1ee8"
+    },
+    {
+      "file": "docs/VALIDATION.md",
+      "bytes": 1206,
+      "sha256": "205f2cd23e31969055f27c5850bf09b824e270cf534693e462dde8af0702c9e6"
+    },
+    {
+      "file": "examples/configuration.php.example",
+      "bytes": 528,
+      "sha256": "44f2df5462328a324a3871375390272a94f9eaf173e4bb469aaf706afddb96a4"
+    },
+    {
+      "file": "LICENSE-RECOMMENDATION.md",
+      "bytes": 903,
+      "sha256": "33a7f8de6d0a85d2f4a8af1ffefd4a07624550b53cd1f1abc5d52c498fdf25b8"
+    },
+    {
+      "file": "plugin/assets/journey.js",
+      "bytes": 1861,
+      "sha256": "113a55ff54179da1ca286bd4a4d2d87551d4adf2c876e1afce0dcc7f43a892a8"
+    },
+    {
+      "file": "plugin/assets/sms-notice.css",
+      "bytes": 1599,
+      "sha256": "e245b4e8425eac6a453da1953a60f18606963686fcb9f4df7fbdcbdb2e1a8068"
+    },
+    {
+      "file": "plugin/assets/sms-notice.js",
+      "bytes": 3899,
+      "sha256": "172fa250b7d63684a2e40880b6f70cd28c872f9998fcc5639217c939b0c2ee9f"
+    },
+    {
+      "file": "plugin/assets/studio-audiences.js",
+      "bytes": 10958,
+      "sha256": "6fce442ba6fc76d26b884a523689521fb2795dc060c170773c79e3bebcad0fee"
+    },
+    {
+      "file": "plugin/assets/studio-flow.css",
+      "bytes": 4588,
+      "sha256": "db04ead27b13ff79fab6abe508c41ba387ed00b6902385944362df1efe162a8f"
+    },
+    {
+      "file": "plugin/assets/studio-flow.js",
+      "bytes": 39555,
+      "sha256": "5e0c3e67d967b3b11ee00723a8ff5da9bfc92f6fce2534e5c72ff47dc402eebd"
+    },
+    {
+      "file": "plugin/assets/studio-forms.js",
+      "bytes": 872,
+      "sha256": "88cecf2f5d602914b3d0b7c9554993a2872d94b954c890fbee0853e39a5f57b3"
+    },
+    {
+      "file": "plugin/assets/studio-m10.js",
+      "bytes": 6462,
+      "sha256": "f47e16bd289623db11c5a0c0178de98afde0207d581cbf55275089757b0bf72f"
+    },
+    {
+      "file": "plugin/assets/studio-m6.css",
+      "bytes": 4803,
+      "sha256": "becba0babd2044a37226027d6478ef7c9c71be5fdf8cef6adeeea994e1067abf"
+    },
+    {
+      "file": "plugin/assets/studio-m6.js",
+      "bytes": 25038,
+      "sha256": "a5fc08730a9a251553a2b2615cb97b168215c77d0d20d7a83e4d03ffa35267a9"
+    },
+    {
+      "file": "plugin/assets/studio-m7.js",
+      "bytes": 2583,
+      "sha256": "a8630e3b0aef6f896c1256da59eb2467d83de7b530df891b88182e481e80fc16"
+    },
+    {
+      "file": "plugin/assets/studio-m9.css",
+      "bytes": 4049,
+      "sha256": "d4144bf96ee743c13595913f6e4df41d81fa52c105c506eff3f403c56887914e"
+    },
+    {
+      "file": "plugin/assets/studio-m9.js",
+      "bytes": 16263,
+      "sha256": "7310a701fdac1697911a17d992e9749419c822f7b0a53c2c51a39ad07d0e6460"
+    },
+    {
+      "file": "plugin/assets/studio-m91.js",
+      "bytes": 12083,
+      "sha256": "157e00cdf42576087bcf28e2a4e04cf3eda819c2e93490d1b0666e767de6a068"
+    },
+    {
+      "file": "plugin/assets/studio-m92.js",
+      "bytes": 5349,
+      "sha256": "31f5763496bb6149a1560ec33a9cab5c3e83837293db5f3535cd50260b70684e"
+    },
+    {
+      "file": "plugin/assets/studio.css",
+      "bytes": 25692,
+      "sha256": "fae6959842b30f78b294aa2ec7ef13f0feea19efe7f71b8256385ea9d9b272b2"
+    },
+    {
+      "file": "plugin/assets/studio.js",
+      "bytes": 54812,
+      "sha256": "b73b7c81cdb9972da2844bc4d728a1ccc169991beab484e938d58b09f297b28c"
+    },
+    {
+      "file": "plugin/azula-sms-studio.php",
+      "bytes": 1403,
+      "sha256": "68fa00375b2e8d8e0658ade1226d196d168e0687bed6e7a57a658e07eac03f4f"
+    },
+    {
+      "file": "plugin/src/Admin.php",
+      "bytes": 12461,
+      "sha256": "cb3d0116ca55ba4919581f61effbb52b225a9f3d4c75e69d5bfca8434b3775c3"
+    },
+    {
+      "file": "plugin/src/AdminRequestError.php",
+      "bytes": 4661,
+      "sha256": "7cfb3728fe70174fc39fbe869fbf0e3d923d92d7f1b6e353dc9d290302160606"
+    },
+    {
+      "file": "plugin/src/ApprovalPolicy.php",
+      "bytes": 4660,
+      "sha256": "4bc216287849774b0fa4a66f7f96f9c600dc84b8c4dfe6f56fc3bc129c6c77a7"
+    },
+    {
+      "file": "plugin/src/AttributionContractV1.php",
+      "bytes": 1913,
+      "sha256": "2130f19cee3e000179c50cb5581cd8ccdb372a8d2c14219d688fd9efbadceaff"
+    },
+    {
+      "file": "plugin/src/AudienceCsv.php",
+      "bytes": 2883,
+      "sha256": "e14eaf5204df761cff6d6736d4cf9e42ab799fae8c07aeb88ae51a701a8a5ce4"
+    },
+    {
+      "file": "plugin/src/AudiencePreparationService.php",
+      "bytes": 7126,
+      "sha256": "e8d5bfb163e7528854cee8a996f0c1794a2e3faee54fbd9875f59752021f3da6"
+    },
+    {
+      "file": "plugin/src/AudienceReview.php",
+      "bytes": 8146,
+      "sha256": "913c8a25d79a9dc0d49620e8f688cbcce8be68fabaef5085629675f2c715bd6f"
+    },
+    {
+      "file": "plugin/src/AudienceSource.php",
+      "bytes": 303,
+      "sha256": "00f6a7efe79b46b12476ad5131417d57178bb6435f500ced0654ca2db5483292"
+    },
+    {
+      "file": "plugin/src/AudienceStore.php",
+      "bytes": 990,
+      "sha256": "033ab27ed064e6bbc11ddda4f82523030425599901ffb5ce6aa683f6633089fb"
+    },
+    {
+      "file": "plugin/src/AuthorizationBalance.php",
+      "bytes": 1164,
+      "sha256": "c3df025ca085de9516f46930862e18ca98c6f56ac23e2b2c7490f6a2c1e2989f"
+    },
+    {
+      "file": "plugin/src/BalanceDiagnosticSanitizer.php",
+      "bytes": 2033,
+      "sha256": "b71212d977fe12464ebc816ba9834a05f26602db8bebea6212b3999974e137d6"
+    },
+    {
+      "file": "plugin/src/BalanceReservations.php",
+      "bytes": 3213,
+      "sha256": "79a0fd9d3206c821dcd2082c25c62fa33f38d5bed868c3b121c70d041585c44f"
+    },
+    {
+      "file": "plugin/src/CairoTime.php",
+      "bytes": 1560,
+      "sha256": "d8446e6970f6af838148511f2fd5f0b6db2187640409acd7c4813f3ae96f596d"
+    },
+    {
+      "file": "plugin/src/CampaignFlow.php",
+      "bytes": 17785,
+      "sha256": "fa9a43d5d1e1ce75eae99cfc18aed0957a862b48af8b31e7c891b6a59d269073"
+    },
+    {
+      "file": "plugin/src/CampaignFlowScreen.php",
+      "bytes": 10494,
+      "sha256": "232cec34c2edce36af21fe99eed101ff5e1682ffec53ca6934db392f065d70e0"
+    },
+    {
+      "file": "plugin/src/CampaignLifecycle.php",
+      "bytes": 722,
+      "sha256": "3d36b5e26fa0ea3a4ad7adf82b2a4d112bc504e6f89419ae2ebb242ad3b58df5"
+    },
+    {
+      "file": "plugin/src/ControlledTestException.php",
+      "bytes": 184,
+      "sha256": "e3137ec6149345b1db1629aa2be5067c1ca2570dc55149e67a3711618c5a72bd"
+    },
+    {
+      "file": "plugin/src/ControlledTestService.php",
+      "bytes": 22362,
+      "sha256": "96f3d31b3a938ba98d5826a80c16224a15cff076a85ab7619cf992e7794900ab"
+    },
+    {
+      "file": "plugin/src/Crypto.php",
+      "bytes": 1944,
+      "sha256": "a788e019a067cb234aa02a4612fb410bf3ed332361883fa70ea0e7bab1569f23"
+    },
+    {
+      "file": "plugin/src/CustomerSegmentsAdapterV1.php",
+      "bytes": 5007,
+      "sha256": "d828876b449a3f38d00276fce79741a62fb441aa2f259bb6e357c029b19e99b5"
+    },
+    {
+      "file": "plugin/src/Database.php",
+      "bytes": 1459,
+      "sha256": "92a358e50e50ca8b64de3e253fe155658fa3269282dc891adff862d4ec60bc22"
+    },
+    {
+      "file": "plugin/src/DiagnosticsAccess.php",
+      "bytes": 948,
+      "sha256": "d39d36ac9ca3fa8cf851a0df1ae6e20c6508e7f862928677b423d65eedeced95"
+    },
+    {
+      "file": "plugin/src/DiagnosticsReader.php",
+      "bytes": 1207,
+      "sha256": "67158e71947c7dafc6072f435f0c53cad007c24b7a3548e82f5a45077c830e41"
+    },
+    {
+      "file": "plugin/src/DiagnosticsScreen.php",
+      "bytes": 7246,
+      "sha256": "a65f90ae5e28de1ed2c5913c02e92ec15953754b63d17107c4e6545be48fa39b"
+    },
+    {
+      "file": "plugin/src/DispatchGate.php",
+      "bytes": 678,
+      "sha256": "7efc01a1908a2c0e032fbcd4c3cad519bee22d0a1b2d5bb3cde3765e0a5005fd"
+    },
+    {
+      "file": "plugin/src/EgyptMobileNormalizer.php",
+      "bytes": 3146,
+      "sha256": "7b2ac2f2b388c20e00ee7181ff7cc87a2c76a26fa0558625b869e9feade2bde8"
+    },
+    {
+      "file": "plugin/src/ExactPoints.php",
+      "bytes": 1066,
+      "sha256": "93da9f75307a18510176bb78f91ac9d66db67c90351d64e2085557a576bf4963"
+    },
+    {
+      "file": "plugin/src/FrozenIdentitySource.php",
+      "bytes": 205,
+      "sha256": "c08b4e71262cf74ac66ebfa1d29c2796cfcee53a3f6d5702903b71fc1fb1e9f5"
+    },
+    {
+      "file": "plugin/src/HeldQueueProviderBridge.php",
+      "bytes": 2672,
+      "sha256": "7831a3e630467678da39127f1af2003c0d64c623e07b5890ad7a4143c895cf07"
+    },
+    {
+      "file": "plugin/src/M10.php",
+      "bytes": 6928,
+      "sha256": "a096dd8f5fc447611871eb45b2bede5dbb8031cb8af8399be84085971b7a7a79"
+    },
+    {
+      "file": "plugin/src/M11Environment.php",
+      "bytes": 2957,
+      "sha256": "5a5431ef8215dbfc207b4394c78e1d74f3dc18067809bf627f01a6054726b954"
+    },
+    {
+      "file": "plugin/src/M11Purchases.php",
+      "bytes": 3716,
+      "sha256": "0e3e394804be22116262de1566e4294cd36cbf524b6e2c0a4bcc1bebc274f1ba"
+    },
+    {
+      "file": "plugin/src/M2Api.php",
+      "bytes": 14113,
+      "sha256": "85f7e9de50d62a34e5566fb1de27fa873bba2d4ef61ec837fe9682b9a1cc4f18"
+    },
+    {
+      "file": "plugin/src/M2Repository.php",
+      "bytes": 12398,
+      "sha256": "c0fcd59517ffb3c4be7f8aac5a58bf4f51d3811cfe79954738ba108832c644e9"
+    },
+    {
+      "file": "plugin/src/M2Scheduler.php",
+      "bytes": 9725,
+      "sha256": "14960d071f5e9dbd14ba06d5cc418805497b84e5dd2171018824b36e7b710d0b"
+    },
+    {
+      "file": "plugin/src/M2Screen.php",
+      "bytes": 26498,
+      "sha256": "3c929d4e4a30656edc84ed04df1844492915485b5da0a9b011edf9f73459481b"
+    },
+    {
+      "file": "plugin/src/M3Repository.php",
+      "bytes": 18297,
+      "sha256": "419f75c02cf6c95d432c530102ecfe2d5e77ab5a9b66512663a7f7b53e1f8662"
+    },
+    {
+      "file": "plugin/src/M3Scheduler.php",
+      "bytes": 3457,
+      "sha256": "6141256d08201052dae451326165e812e419a7d2a2c7c9e9b5d591130729ee29"
+    },
+    {
+      "file": "plugin/src/M5Activity.php",
+      "bytes": 2976,
+      "sha256": "4b348a4f3194425d5effd3a9ec17dd064db7ed958292a009d2095f231306543e"
+    },
+    {
+      "file": "plugin/src/M5Api.php",
+      "bytes": 1440,
+      "sha256": "e64a63a9da994e07102007ad10e18bf6d02c58630ce15bdd412cf5ab5d81bc8c"
+    },
+    {
+      "file": "plugin/src/m6-attribution-pins.php",
+      "bytes": 567,
+      "sha256": "9aae93491cf0a73bb75c51ab98320047a0fc72d5664961e66fc7faa242660737"
+    },
+    {
+      "file": "plugin/src/M6Activity.php",
+      "bytes": 4940,
+      "sha256": "3636153593fd20256744b16b97bca3af6ea98f95705ec8eb006be1c55c65f9b3"
+    },
+    {
+      "file": "plugin/src/M6Analytics.php",
+      "bytes": 10710,
+      "sha256": "0b351d361a7ac42db41c1054daf4c0580f25825f808a860d4bca1920732bbf5f"
+    },
+    {
+      "file": "plugin/src/M6AnalyticsCsv.php",
+      "bytes": 2813,
+      "sha256": "eea7c31c62d74ebae5f80be0b4f9fa86b3ae2fdc00aff733fb8e691eb266c98b"
+    },
+    {
+      "file": "plugin/src/M6Api.php",
+      "bytes": 5338,
+      "sha256": "00615aba1da5ddba11eda8143518a922b3569d74a5994d85dc340882e76e1f07"
+    },
+    {
+      "file": "plugin/src/M6AttributionContracts.php",
+      "bytes": 3392,
+      "sha256": "73ee120619e4d52d60721118cbbe513833ecf36b6820ac4e41d87cec5da4d526"
+    },
+    {
+      "file": "plugin/src/M6Audience.php",
+      "bytes": 2466,
+      "sha256": "098b4eb28d9dec8fc1aa49cd507d949c217e9c38153842f797f460c387811720"
+    },
+    {
+      "file": "plugin/src/M6Campaigns.php",
+      "bytes": 8608,
+      "sha256": "c69584bba603acf95add980357e223a646f3c594cb9c1b687e2e791b5f2e7d69"
+    },
+    {
+      "file": "plugin/src/M6Front.php",
+      "bytes": 9146,
+      "sha256": "8337619b45d8737a9dffac17d82ed081dd838cc164f4fdf62a4235f8ee9a0837"
+    },
+    {
+      "file": "plugin/src/M6Links.php",
+      "bytes": 6917,
+      "sha256": "81a830852377e67aada478ccd4fd17577743b8d2a27b3600daa9e7015721aee5"
+    },
+    {
+      "file": "plugin/src/M6Revenue.php",
+      "bytes": 2138,
+      "sha256": "de049c7b99f6a2db5a7c9f00fd97e4d302356f932d8e117e861ecb35c5dba9b0"
+    },
+    {
+      "file": "plugin/src/M6Schema.php",
+      "bytes": 4046,
+      "sha256": "983a16610dd8d53d9975fb81af5917518e790d444ad1ad80704a6c84d314a850"
+    },
+    {
+      "file": "plugin/src/M6Screen.php",
+      "bytes": 12856,
+      "sha256": "9f85b40a629f67b342a084e50336aca97fc674b52d4b9672f5a81596b61b5c33"
+    },
+    {
+      "file": "plugin/src/M6SendPolicy.php",
+      "bytes": 4137,
+      "sha256": "869df3632d1dd50f7037a033196799020d99f6840371ff79b6870bb21b7038b4"
+    },
+    {
+      "file": "plugin/src/M6SendService.php",
+      "bytes": 27065,
+      "sha256": "311677227c634a72572fe277e08781332aa5a51184961ab92396e601b9bd5977"
+    },
+    {
+      "file": "plugin/src/M6Store.php",
+      "bytes": 3017,
+      "sha256": "697459421ab6412d6de9738bf5058627e302b53f8cd8d91b25b1634d4a35e703"
+    },
+    {
+      "file": "plugin/src/M6Timing.php",
+      "bytes": 1927,
+      "sha256": "ec052c7364fbac37769aa59ead54ecda414e95abe56fcab666f4ab26df2db980"
+    },
+    {
+      "file": "plugin/src/M6Tracking.php",
+      "bytes": 10472,
+      "sha256": "d5c6f745d94b775b176e62eb53e1d93ae5b64d81436b3ffaf1e2fc65457723d3"
+    },
+    {
+      "file": "plugin/src/M6Worker.php",
+      "bytes": 3704,
+      "sha256": "26fc06dc0b3377e4782531c3313c4560414bd69b2f39a248fd66acbe50d62b0d"
+    },
+    {
+      "file": "plugin/src/M7Collector.php",
+      "bytes": 2970,
+      "sha256": "029111d5d38c33bc1c2257bfd0143b5d7ff37f08824792c9bb5e5c15c7690f6a"
+    },
+    {
+      "file": "plugin/src/M7Front.php",
+      "bytes": 2827,
+      "sha256": "409105239065d8282362260ab6f9398d89d09a2ea82dfe70553a0a4dc5ef123a"
+    },
+    {
+      "file": "plugin/src/M7Links.php",
+      "bytes": 6546,
+      "sha256": "cb318b74f1639f0f31ad91dc5827a0a5e2c94a16edfefa62b15c2c1142b11f81"
+    },
+    {
+      "file": "plugin/src/M7Schema.php",
+      "bytes": 1251,
+      "sha256": "905ae3dcac5fc5320ce8e91c14365696f06eefe69fc9babe246008bbcb01d26b"
+    },
+    {
+      "file": "plugin/src/M7Settings.php",
+      "bytes": 4928,
+      "sha256": "abe234d936159f881cfb213fa3c9397898cdd321e394a651fb3011a08535e2ac"
+    },
+    {
+      "file": "plugin/src/M8Analytics.php",
+      "bytes": 11175,
+      "sha256": "12656507bbe34b4ebdafa205d00d8e525a9c7bc0e909c5ecf0a57dd21f8c1187"
+    },
+    {
+      "file": "plugin/src/M8AnalyticsCsv.php",
+      "bytes": 2915,
+      "sha256": "0711f0be2c57ffecd69e66aaad3e24a2372941273b0166fffd553d543ef3ad15"
+    },
+    {
+      "file": "plugin/src/M8Costs.php",
+      "bytes": 2141,
+      "sha256": "0a8efe829d7571d1c2578cdcff0249c0e85f58b26de9bf0b399b47120526eb91"
+    },
+    {
+      "file": "plugin/src/M8Events.php",
+      "bytes": 2564,
+      "sha256": "36eb0a8cecb8a57cf3f6d9af0399d7ff3dea31c4343e8eeb02c7f13540d12081"
+    },
+    {
+      "file": "plugin/src/M8Tokens.php",
+      "bytes": 1714,
+      "sha256": "dc22f2050e0cda478ed30306adde500b9e5d075adc078e12838c69860fa5c56c"
+    },
+    {
+      "file": "plugin/src/M8Values.php",
+      "bytes": 2173,
+      "sha256": "ae4f4c87a171e21eb04c7df02cb6a0ff294d8541aa45989f3976037c07208a0a"
+    },
+    {
+      "file": "plugin/src/M91Campaign.php",
+      "bytes": 3669,
+      "sha256": "bcc864e370f25a3493d58ea67484675aebd2b6b6b8fbc6edc8ccc0c867253d91"
+    },
+    {
+      "file": "plugin/src/M91Screen.php",
+      "bytes": 3603,
+      "sha256": "bdf991d0da5546ff5171f0397db8d8fe20fbe18a84fd5f79e5656b08d0e02961"
+    },
+    {
+      "file": "plugin/src/M92Policy.php",
+      "bytes": 7628,
+      "sha256": "2045b43c1b50a2ea519aee75d9b20256264e678730c9800723e269093759306f"
+    },
+    {
+      "file": "plugin/src/M92Readiness.php",
+      "bytes": 6000,
+      "sha256": "fe14b8d4ca62c9ae5e35cc8c0471ca49be450009c3a00db98f5ef4e2aed1a516"
+    },
+    {
+      "file": "plugin/src/M92Runner.php",
+      "bytes": 2639,
+      "sha256": "2cbb53673388670460e246b4fc9e93883951fce1fb5caac023c9c9b57880237d"
+    },
+    {
+      "file": "plugin/src/M92Screen.php",
+      "bytes": 2598,
+      "sha256": "832d73b91aa10c7422cd693dd73406b984d551b126ff47ec3b8e3a9a0d6b6364"
+    },
+    {
+      "file": "plugin/src/M9Api.php",
+      "bytes": 6446,
+      "sha256": "adcc12c76eb936acd87807b3f70d02350ea1197f320611828c4da0d1ffe05801"
+    },
+    {
+      "file": "plugin/src/M9Bulk.php",
+      "bytes": 48687,
+      "sha256": "1acadc9969c158d256ea18006123e10c3d1b742764ee9e8502fe02757011fecb"
+    },
+    {
+      "file": "plugin/src/M9Checkout.php",
+      "bytes": 4482,
+      "sha256": "b030ac500a04f0e3d108a2dc43f02aff3ca566b40ebfd8b1d9a19af9b078736c"
+    },
+    {
+      "file": "plugin/src/M9Policy.php",
+      "bytes": 4077,
+      "sha256": "561dcc11948db11cf0c18a60a1bfa3c050662b6363b7edd87a96691abba5eec8"
+    },
+    {
+      "file": "plugin/src/M9Retargeting.php",
+      "bytes": 16829,
+      "sha256": "0fc7b2ffe5cae8e1ffe99d7c2f0f49a04552a2dbf88617f76bcd5c097ecce2dc"
+    },
+    {
+      "file": "plugin/src/M9Schema.php",
+      "bytes": 1240,
+      "sha256": "7cf3b4ee039870d9170c86991020fe5b22dbe1425988cbef5a25ff07f9902855"
+    },
+    {
+      "file": "plugin/src/M9Screen.php",
+      "bytes": 11730,
+      "sha256": "03566abc3d0c98dc03f58fa91a7846af2ea53ba09da6d459bd51f3bc8e380e04"
+    },
+    {
+      "file": "plugin/src/M9Source.php",
+      "bytes": 6857,
+      "sha256": "5b780d9dcf98f280128958d2750dd1313eca837b0697b9e300145f310c215ac8"
+    },
+    {
+      "file": "plugin/src/M9Worker.php",
+      "bytes": 5047,
+      "sha256": "56233ac95cccc650341ac2b2a46ddae08e8e9ac9136151ea93851e435f4deb30"
+    },
+    {
+      "file": "plugin/src/MessageMetrics.php",
+      "bytes": 2103,
+      "sha256": "414e6a543af08ffe30c3d84de0cd7595bb282933bfeda5eaffc47ba9c0f44d15"
+    },
+    {
+      "file": "plugin/src/MessageValidation.php",
+      "bytes": 1274,
+      "sha256": "30d884af37aa7e42eaf02e5db55eb256f98c24d51feda3d110ce67c2c919ee8f"
+    },
+    {
+      "file": "plugin/src/OriginalPhoneDiagnostics.php",
+      "bytes": 1741,
+      "sha256": "b7454f317cf1bd4555d1e4ec3ab62d7dd4a99628f45bbdb17a9da51496371e18"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "bytes": 9282,
+      "sha256": "6344e8e2c1bff859130dafcaa0648dc13b08c890173de296bed3c8258e96b9ff"
+    },
+    {
+      "file": "plugin/src/Plugin.php",
+      "bytes": 1546,
+      "sha256": "9ddd8f560ba96d3c2625ba8dbc3d3d596ad2d75f72b3154cd0112cbc9a700ee4"
+    },
+    {
+      "file": "plugin/src/RC18Retargeting.php",
+      "bytes": 1904,
+      "sha256": "43dd25b982390ee4c1dc30de1d7bc925a5d1b69133e27a57be965c1bc0b7c1cd"
+    },
+    {
+      "file": "plugin/src/RC1Journey.php",
+      "bytes": 4711,
+      "sha256": "097905091a62a7b56a059ed36d5807f0e390d5fa8b294a35f175109270f19663"
+    },
+    {
+      "file": "plugin/src/RC1LinkGuard.php",
+      "bytes": 1562,
+      "sha256": "2e3fd2a4afc5c123df25bd937d6fa785707f90058beee013be5c2a8c6f2ff64b"
+    },
+    {
+      "file": "plugin/src/RC1Status.php",
+      "bytes": 2366,
+      "sha256": "becde5e9ec3b4027a50343712739f2c8681ed8f5abad803d1ad6abc91d5e1df0"
+    },
+    {
+      "file": "plugin/src/RC1Values.php",
+      "bytes": 5060,
+      "sha256": "8d0416acc17e740865517e0c2ff36b7f3a068f99c9008c09a989ba69a7629afd"
+    },
+    {
+      "file": "plugin/src/RC2Audiences.php",
+      "bytes": 25176,
+      "sha256": "423b22e1e361ac19b5e19d86b9ecb768c2fec728226e6a7946265cdeba5c0307"
+    },
+    {
+      "file": "plugin/src/RC2Evidence.php",
+      "bytes": 2580,
+      "sha256": "7ef0b14a375faea5ff343cb6b3afd66ec9c57a5244aa601319c48e38fb5c6cf6"
+    },
+    {
+      "file": "plugin/src/RC2Screen.php",
+      "bytes": 3948,
+      "sha256": "28d6ae95fe2f74af12e0ccc463d31269ad9506d81cf905c10ad4a69bbb2dfd7f"
+    },
+    {
+      "file": "plugin/src/ScheduledCampaign.php",
+      "bytes": 5349,
+      "sha256": "44e9153d12d8e275a0cb771262dddd02445eb8b4e6ce4ecd13f77e6643172573"
+    },
+    {
+      "file": "plugin/src/Schema.php",
+      "bytes": 14400,
+      "sha256": "ebd43a41a2a5f4ce58787a682d1fb6b5d586a78addeaf4f6c774b950c78b7d1c"
+    },
+    {
+      "file": "plugin/src/Security.php",
+      "bytes": 394,
+      "sha256": "ba43fcf87b5319d02f0ae320dab5a05b4c45e1eb96909f57b870a957d1cf2c18"
+    },
+    {
+      "file": "plugin/src/SenderIdentity.php",
+      "bytes": 4751,
+      "sha256": "58f6fb949a16022ef8727ba2d30ba96d6f739f842f4cc42a5de4c13cbc837577"
+    },
+    {
+      "file": "plugin/src/SmsConsent.php",
+      "bytes": 7408,
+      "sha256": "e712db656cc7ba5334c3107100bdd05f1fac2d56c4351088498f87545302fdaa"
+    },
+    {
+      "file": "plugin/src/SmsJourneyState.php",
+      "bytes": 1462,
+      "sha256": "f52046f8eca9080a3bcb7b317a982e34c239fe3a7f8f147269356d5a2095d9a6"
+    },
+    {
+      "file": "plugin/src/SmsMisrAdapter.php",
+      "bytes": 7081,
+      "sha256": "25e8b0321225e65ec2caf3b9e369cdfe8fb21afa9768b8b15b33329bcb5e571c"
+    },
+    {
+      "file": "plugin/src/SmsMisrHttp.php",
+      "bytes": 3362,
+      "sha256": "479b27c4a509e80b7a62b38516b0431998d77b40eb837948e902b94bf88f3c2f"
+    },
+    {
+      "file": "plugin/src/SmsMisrOfflineTransport.php",
+      "bytes": 196,
+      "sha256": "20254eba03270a29ce1edb5e2b48c64a7afaa369ccd5c04acd58ed18f6432afe"
+    },
+    {
+      "file": "plugin/src/SmsMisrSettings.php",
+      "bytes": 6411,
+      "sha256": "fdef820bf96f70ef6113746734c879e536f814075ba3246b1722ec7c40f20a25"
+    },
+    {
+      "file": "plugin/src/SmsNotice.php",
+      "bytes": 5939,
+      "sha256": "c2df5bdaf0137ecca4edc6faad45560cf3e3454d1660ae1e26c5a4c3f033f980"
+    },
+    {
+      "file": "plugin/src/source-pins-0169.php",
+      "bytes": 583,
+      "sha256": "c929b40e30abe418255d4c2db0e22c540b8899ced8bdaaf1f86ac9a92bb51557"
+    },
+    {
+      "file": "plugin/src/source-pins.php",
+      "bytes": 572,
+      "sha256": "7da0ef5d581bf8ba18cf19d97d64e4a0a85ee25b198fba18b92cc4bf700a46db"
+    },
+    {
+      "file": "plugin/src/SourceCompatibility.php",
+      "bytes": 1719,
+      "sha256": "603b3c554a3114070f65be841fffa1be406738591f92fc427f22bc19272d5528"
+    },
+    {
+      "file": "plugin/src/TargetedDiagnostics.php",
+      "bytes": 4503,
+      "sha256": "b7967f446bfaee11bc325294f4960a97017a7ec2f669a1089f9b3b06fcea59d0"
+    },
+    {
+      "file": "plugin/src/WordPressStore.php",
+      "bytes": 15843,
+      "sha256": "2ca9d5ff7b591c5396328636575067d0ae09e739a36f32e00e2757882433ff6c"
+    },
+    {
+      "file": "plugin/uninstall.php",
+      "bytes": 130,
+      "sha256": "a6bf1db3c53e1ea44804f469da74ad75f71631f27fe099ee70f8913613a27f6d"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8617,
+      "sha256": "5c1757f2caa7ec1ab7a6fb65a8d9afb0279b5f69e1ac0699afe08437d8630c72"
+    },
+    {
+      "file": "reports/exclusions.json",
+      "bytes": 781,
+      "sha256": "dc365836209b379839818f0cad446ec995c19449ed59da4b7543e3ff52a1f18d"
+    },
+    {
+      "file": "reports/scan.json",
+      "bytes": 53015,
+      "sha256": "0581de63fd84f221f10c3ba489e6d9942caa42fc1b032ef920b41ca80a2f29cd"
+    },
+    {
+      "file": "reports/screenshots.json",
+      "bytes": 1680,
+      "sha256": "4a7bb70f1c825d913782864560f34ed924ee7652435a455617e07a5fc84e89dc"
+    },
+    {
+      "file": "reports/SECURITY-SANITIZATION.md",
+      "bytes": 3952,
+      "sha256": "6cfb567cc085f23331960451b90bc32e94ae60115b163fe1016d30fc4dcc6dbf"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "bytes": 36476,
+      "sha256": "3dcbb2c6943d826a751c61b49cde0bf309f9fa5e6885d98bf7c5fd22cfa0e413"
+    },
+    {
+      "file": "reports/validation.json",
+      "bytes": 1679,
+      "sha256": "e9465a0eb21db1fd6ddd49febf8aee23929b6c7a49bcf43255dac617a1964905"
+    },
+    {
+      "file": "screenshots/audience-retargeting.png",
+      "bytes": 103062,
+      "sha256": "a21c60b36810a8cccf0c19dd138eb902677c8dc78d7f88b6fdf5a4bdc64d8592"
+    },
+    {
+      "file": "screenshots/audience-review.png",
+      "bytes": 96984,
+      "sha256": "e578d9a67f75524acca0d9909ffaee700850da9498df066afb929daa6ac2e58d"
+    },
+    {
+      "file": "screenshots/campaign-analytics.png",
+      "bytes": 71498,
+      "sha256": "bbaa1bd54b8106540ec00e319b2305dab9a0f8dde6b4a3c6823246b82984ab4c"
+    },
+    {
+      "file": "screenshots/campaign-management.png",
+      "bytes": 92266,
+      "sha256": "645efcef7cd06e7bca00ec05730079001f7c12b67550d1280d50067c4cfe0c9f"
+    },
+    {
+      "file": "screenshots/README.md",
+      "bytes": 1077,
+      "sha256": "e2f4041c043058288d2a287301436081931009a39c200fa324a2e2364f129f40"
+    },
+    {
+      "file": "screenshots/sms-composer.png",
+      "bytes": 78377,
+      "sha256": "7ac7ebd942a923b84d89d02d28487ec13e629a553be8bca653be0cd85c4b956c"
+    },
+    {
+      "file": "screenshots/sms-misr-integration.png",
+      "bytes": 1223004,
+      "sha256": "0a3fdbe17084e8ce996d7df7cb6d060fde649e8d0309b46529d8a78703183508"
+    },
+    {
+      "file": "SECURITY.md",
+      "bytes": 1007,
+      "sha256": "b50de3baa5d3b39ce7bac69919fab36b1045715b73de501a361da66308b046d3"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "bytes": 1507,
+      "sha256": "09092fab553fedde52b73a768c8a6bbcc42ea805c688c93399088dd89f2d5e95"
+    }
+  ]
+}

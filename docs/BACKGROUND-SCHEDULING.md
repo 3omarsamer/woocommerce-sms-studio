@@ -1,16 +1,27 @@
-# Hostinger server-side cron and autonomous scheduling
+# Background scheduling
 
-The project uses WooCommerce Action Scheduler and a guarded background execution path for send authorizations.
+## Mechanism verified in source
 
-## Why server-side cron?
-Site-visitor-triggered WP-Cron alone may be irregular for scheduled sends. A Hostinger server-side cron job, configured to trigger processing **approximately every five minutes**, helps wake the WordPress scheduling system independently of the administrator's browser or laptop.
+`CairoTime` uses the IANA `Africa/Cairo` timezone, validates local choices including DST ambiguity and converts execution times to UTC. No fixed Egyptian UTC offset should be used. Saving a future time does not authorize a provider request. `ScheduledCampaign`, `M91Campaign` and `M92Readiness` bind timing, audience and approval; freshness, balance and production readiness are rechecked at execution.
 
-### Execution model
-Approved campaign → Cairo-local schedule converted/stored in UTC → Action Scheduler due job → cron-triggered worker opportunity → eligibility/approval/idempotency checks → SMS Misr API submission → persisted outcome and audit history.
+WooCommerce Action Scheduler provides persisted jobs. `M2Scheduler` prepares bounded audiences and provides probe/watchdog hooks; `M9Worker` schedules due `azula_sms_bulk_tick` actions in the SMS bulk group. `M92Runner` checks harmless probe completion. A completed probe confirms recent worker execution, **not which external scheduler triggered it**. The code explicitly reports unattended verification as false absent operational evidence.
 
-The laptop can be switched off because job execution happens at the server. However, cron health, WordPress runtime health, queue load and provider/network latency can affect submission and actual delivery timing. Five-minute cadence does not guarantee second-precise delivery.
+An external Hostinger Cron Job can trigger WordPress approximately every five minutes, without an administrator browser remaining open. Visitor-only WP-Cron can delay execution on a quiet store. A five-minute trigger means minute-level lateness is expected, not precise-second delivery.
 
-### Operational safeguards
-Single-execution claims, locks/attempt records, recipient limits, budget constraints, approval snapshot binding and protections for unknown provider outcomes. Scheduled Live requires a separate permission gate after a controlled pilot. Avoid automatic duplicate attempts on ambiguous provider responses.
+Sanitized illustrative hPanel schedule and command (not a claim of the current LIVE configuration):
 
-This public document intentionally contains no real Hostinger login, cron URL, SSH account, server IP, tokens or private paths.
+```cron
+*/5 * * * * curl --fail --silent --show-error --max-time 60 'https://shop.example.invalid/wp-cron.php' >/dev/null
+```
+
+Replace only inside a reviewed deployment procedure. This command contains no credentials or private path. Do not publish real hosting commands. Do not add another trigger blindly; inventory existing jobs and verify the scheduler with browsers closed.
+
+## Evidence boundary
+
+Historical project requests describe Hostinger Cron Jobs and successful scheduled STAGING SMS tests. The available RC18 operations evidence explicitly does **not** establish a dedicated five-minute LIVE trigger: a listing showed a STAGING job and recent Action Scheduler/probe activity. Therefore this public documentation does not claim the exact LIVE interval or provenance was verified. No fresh hosting access was used for publication.
+
+## Safety and logging
+
+`M9Bulk` uses database locks, exact recipient/message digests, provider balance reservations and durable attempts. The worker distinguishes safe pre-claim retry from unknown provider outcomes, which are not automatically resubmitted. Late/stale readiness or purchase/source changes cannot silently authorize more recipients. Scheduling permissions are separate from manual controlled Live permission.
+
+SMS-owned activity records include preparation, worker observation, bounded retry and blocked reasons. Trigger categories distinguish cron/CLI/admin/AJAX evidence but do not prove the Hostinger origin. Never publish raw activity logs or encrypted records. A production pilot requires separate owner authorization; provider acceptance is not phone receipt.

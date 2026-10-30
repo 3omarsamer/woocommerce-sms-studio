@@ -1,0 +1,67 @@
+{
+  "scope": "Offline publication verification only; no production access, deployment or SMS",
+  "php_syntax": {
+    "passed": 117,
+    "failed": 0
+  },
+  "javascript_syntax": {
+    "passed": 12,
+    "failed": 0
+  },
+  "existing_regressions": [
+    {
+      "suite": "consolidated-rc18",
+      "variant": [],
+      "passed": 31,
+      "failed": 0
+    },
+    {
+      "suite": "production-consolidated-rc18",
+      "variant": [],
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "suite": "production-consolidated-rc18",
+      "variant": [
+        "attested"
+      ],
+      "passed": 2,
+      "failed": 0
+    }
+  ],
+  "public_smoke": {
+    "status": "PASS",
+    "assertions": 30,
+    "scope": "Offline synthetic public-package smoke checks"
+  },
+  "local_markdown_links": {
+    "passed": 22,
+    "failed": 0
+  },
+  "source_provenance": {
+    "implementation_files": 133,
+    "byte_identical": 132,
+    "modified": [
+      "plugin/src/PhoneDiagnostics.php"
+    ]
+  },
+  "privacy_scan": "PASS; see scan.json and manual long-literal review",
+  "historical_browser_tests": {
+    "passed": 63,
+    "failed": 0,
+    "rerun": false,
+    "source": "Prior local RC18 consolidated report; not LIVE evidence"
+  },
+  "current_test_assertions_passed": 64,
+  "github_publication": {
+    "status": "PASS",
+    "plugin_files_identical_to_reviewed_package": 133,
+    "png_images": 6,
+    "local_markdown_links": 22,
+    "sensitive_data_findings": 0,
+    "license_added": false,
+    "php_js_syntax": "Previous 117 PHP / 12 JS syntax passes reused; all plugin and test bytes unchanged",
+    "production_operations": false
+  }
+}

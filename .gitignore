@@ -1,0 +1,26 @@
+# Secrets and runtime state
+.env
+.env.*
+!.env.example
+wp-config.php
+wp-config-*.php
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+*.sql
+*.sqlite*
+*.db
+*.log
+*.har
+*.zip
+cookies*
+credentials*
+# Tooling / private operational artifacts
+.tools/
+work/
+node_modules/
+vendor/
+tests/results/
+.DS_Store
+Thumbs.db

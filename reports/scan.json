@@ -1,0 +1,1765 @@
+{
+  "status": "PASS",
+  "scope": "All GitHub publication files excluding existing .git object store; six PNGs visually reviewed and CRC/metadata checked",
+  "blocked_findings": [],
+  "synthetic_phone_findings": [
+    {
+      "file": "plugin/src/M9Source.php",
+      "line": 6,
+      "classification": "False positive: constant ID namespace offset, not a phone"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 99,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 99,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 100,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 101,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 103,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 108,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 112,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 113,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "line": 8,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "line": 8,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "line": 8,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "line": 8,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "line": 8,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "line": 8,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "line": 8,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "line": 9,
+      "classification": "Explicit synthetic formatting test, no network use"
+    },
+    {
+      "file": "tests/public-smoke.php",
+      "line": 9,
+      "classification": "Explicit synthetic formatting test, no network use"
+    }
+  ],
+  "long_literal_review": [
+    {
+      "file": "plugin/assets/journey.js",
+      "line": 4,
+      "classification": "HTTP content type, not a credential"
+    },
+    {
+      "file": "plugin/assets/sms-notice.js",
+      "line": 6,
+      "classification": "HTTP content type, not a credential"
+    },
+    {
+      "file": "plugin/assets/studio.js",
+      "line": 41,
+      "classification": "HTTP content type, not a credential"
+    },
+    {
+      "file": "plugin/src/ControlledTestService.php",
+      "line": 12,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/ControlledTestService.php",
+      "line": 12,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/DiagnosticsAccess.php",
+      "line": 16,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/DiagnosticsAccess.php",
+      "line": 16,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M10.php",
+      "line": 20,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M11Environment.php",
+      "line": 14,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M11Environment.php",
+      "line": 25,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M11Environment.php",
+      "line": 32,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/m6-attribution-pins.php",
+      "line": 3,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/m6-attribution-pins.php",
+      "line": 3,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/m6-attribution-pins.php",
+      "line": 3,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/m6-attribution-pins.php",
+      "line": 3,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/m6-attribution-pins.php",
+      "line": 3,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/m6-attribution-pins.php",
+      "line": 3,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/M6Activity.php",
+      "line": 9,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6AttributionContracts.php",
+      "line": 31,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6Front.php",
+      "line": 12,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6Front.php",
+      "line": 13,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6Front.php",
+      "line": 13,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6Front.php",
+      "line": 13,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6SendPolicy.php",
+      "line": 17,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6SendPolicy.php",
+      "line": 17,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6SendPolicy.php",
+      "line": 31,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6SendPolicy.php",
+      "line": 31,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6SendService.php",
+      "line": 74,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6Tracking.php",
+      "line": 9,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M6Tracking.php",
+      "line": 9,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M7Settings.php",
+      "line": 20,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M8Values.php",
+      "line": 15,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M8Values.php",
+      "line": 19,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M9Api.php",
+      "line": 5,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M9Api.php",
+      "line": 5,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M9Bulk.php",
+      "line": 196,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M9Source.php",
+      "line": 38,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M9Worker.php",
+      "line": 23,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/M9Worker.php",
+      "line": 24,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 79,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 82,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 86,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 86,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 87,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/PhoneDiagnostics.php",
+      "line": 93,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/Plugin.php",
+      "line": 31,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/ScheduledCampaign.php",
+      "line": 39,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/SmsMisrAdapter.php",
+      "line": 25,
+      "classification": "HTTP content type, not a credential"
+    },
+    {
+      "file": "plugin/src/SmsMisrHttp.php",
+      "line": 14,
+      "classification": "HTTP content type, not a credential"
+    },
+    {
+      "file": "plugin/src/SmsMisrSettings.php",
+      "line": 19,
+      "classification": "Static Balance response contract label, not an account identifier"
+    },
+    {
+      "file": "plugin/src/SmsNotice.php",
+      "line": 63,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/source-pins-0169.php",
+      "line": 4,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/source-pins-0169.php",
+      "line": 5,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/source-pins-0169.php",
+      "line": 6,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/source-pins-0169.php",
+      "line": 7,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/source-pins-0169.php",
+      "line": 8,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/source-pins.php",
+      "line": 3,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/source-pins.php",
+      "line": 4,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/source-pins.php",
+      "line": 5,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/source-pins.php",
+      "line": 6,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/source-pins.php",
+      "line": 7,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "plugin/src/TargetedDiagnostics.php",
+      "line": 16,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/TargetedDiagnostics.php",
+      "line": 16,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/TargetedDiagnostics.php",
+      "line": 16,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "plugin/src/TargetedDiagnostics.php",
+      "line": 16,
+      "classification": "Named code/configuration identifier"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 12,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 13,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 18,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 19,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 24,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 25,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 30,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 31,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 36,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 37,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 42,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 43,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 48,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 49,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 54,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 55,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 60,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 61,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 66,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 67,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 72,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 73,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 78,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 79,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 84,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 85,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 90,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 91,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 96,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 97,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 102,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 103,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 108,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 109,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 114,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 115,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 120,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 121,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 126,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 127,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 132,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 133,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 138,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 139,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 144,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 145,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 150,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 151,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 156,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 157,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 162,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 163,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 168,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 169,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 174,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 175,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 180,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 181,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 186,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 187,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 192,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 193,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 198,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 199,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 204,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 205,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 210,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 211,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 216,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 217,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 222,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 223,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 228,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 229,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 234,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 235,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 240,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 241,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 246,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 247,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 252,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 253,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 258,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 259,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 264,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 265,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 270,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 271,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 276,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 277,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 282,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 283,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 288,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 289,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 294,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 295,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 300,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 301,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 306,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 307,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 312,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 313,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 318,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 319,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 324,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 325,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 330,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 331,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 336,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 337,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 342,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 343,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 348,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 349,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 354,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 355,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 360,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 361,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 366,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 367,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 372,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 373,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 378,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 379,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 384,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 385,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 390,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 391,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 396,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 397,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 402,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 403,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 408,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 409,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 414,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 415,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 420,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 421,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 426,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 427,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 432,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 433,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 438,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 439,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 444,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 445,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 450,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 451,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 456,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 457,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 462,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 463,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 468,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 469,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 474,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 475,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 480,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 481,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 486,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 487,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 492,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 493,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 498,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 499,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 504,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 505,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 510,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 511,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 516,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 517,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 522,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 523,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 528,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 529,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 534,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 535,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 540,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 541,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 546,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 547,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 552,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 553,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 558,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 559,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 564,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 565,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 570,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 571,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 576,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 577,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 582,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 583,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 588,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 589,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 594,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 595,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 600,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 601,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 606,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 607,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 612,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 613,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 618,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 619,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 624,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 625,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 630,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 631,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 636,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 637,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 642,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 643,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 648,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 649,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 654,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 655,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 660,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 661,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 666,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 667,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 672,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 673,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 678,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 679,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 684,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 685,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 690,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 691,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 696,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 697,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 702,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 703,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 708,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 709,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 714,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 715,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 720,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 721,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 726,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 727,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 732,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 733,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 738,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 739,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 744,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 745,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 750,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 751,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 756,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 757,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 762,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 763,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 768,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 769,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 774,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 775,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 780,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 781,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 786,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 787,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 792,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 793,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 798,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 799,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 804,
+      "classification": "SHA-256 compatibility/provenance digest"
+    },
+    {
+      "file": "reports/source-provenance.json",
+      "line": 805,
+      "classification": "SHA-256 compatibility/provenance digest"
+    }
+  ],
+  "binary_files": 6,
+  "nested_archives": 0,
+  "git_history_included": false,
+  "png_files": [
+    "screenshots/audience-retargeting.png",
+    "screenshots/audience-review.png",
+    "screenshots/campaign-analytics.png",
+    "screenshots/campaign-management.png",
+    "screenshots/sms-composer.png",
+    "screenshots/sms-misr-integration.png"
+  ]
+}

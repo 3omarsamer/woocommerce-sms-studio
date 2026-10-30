@@ -1,0 +1,26 @@
+{
+  "work": {
+    "policy": "Excluded wholesale; only newly authored public material is included",
+    "file_count": 20693
+  },
+  ".tools": {
+    "policy": "Excluded wholesale; only newly authored public material is included",
+    "file_count": 1046
+  },
+  "dist": {
+    "policy": "Excluded wholesale; only newly authored public material is included",
+    "file_count": 113
+  },
+  "docs": {
+    "policy": "Excluded wholesale; only newly authored public material is included",
+    "file_count": 1640
+  },
+  "tests": {
+    "policy": "Excluded wholesale; only newly authored public material is included",
+    "file_count": 544
+  },
+  ".git": {
+    "policy": "Excluded wholesale; only newly authored public material is included",
+    "file_count": 5824
+  }
+}
